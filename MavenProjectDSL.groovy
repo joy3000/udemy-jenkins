@@ -2,7 +2,7 @@ job('First_Maven_Job_Via_DSL') {
     description('Job created via DSL.')
 
     scm {
-        github('https://github.com/joy3000/udemy-jenkins.git', '*/main')
+        github('joy3000/udemy-jenkins', '*/main')
     }
 
     triggers {
