@@ -13,7 +13,7 @@ job('First_Maven_Job_Via_DSL') {
         maven('clean package', 'pom.xml')
     }
 
-    publisher {
+    publishers {
         archiveArtifacts 'target/*.jar'
     }
 }
